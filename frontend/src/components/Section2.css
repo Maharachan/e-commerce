@@ -1,0 +1,26 @@
+/* Import Anton Font */
+
+.breeding {
+    text-align: center; /* Center align all content */
+    padding: 50px 0;
+  }
+  
+  /* Gallery Heading */
+  .breeding-heading {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    color: #654321;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    text-transform: uppercase;
+  }
+  
+  /* Black Divider */
+  .divider {
+    width: 80px; /* Adjust width as needed */
+    height: 4px;
+    background-color: black;
+    margin: 0 auto; /* Center align */
+  }
+  

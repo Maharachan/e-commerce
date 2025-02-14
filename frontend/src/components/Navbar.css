@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: #ffffff;
+    border-bottom: 1px solid #654321;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    flex: 1; /* Pushes everything else to the right */
+  }
+  
+  .logo {
+    height: 50px; /* Adjust as needed */
+    margin-left: 40px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: auto; /* Pushes links to the right */
+  }
+  .nav-links :hover{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: auto; /* Pushes links to the right */
+    color: #654321;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  
+  .contact-btn {
+    background: #654321;
+    color: white;
+    padding: 7px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 40px; /* Ensures spacing from nav links */
+    margin-right: 40px;
+  }
+  
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
