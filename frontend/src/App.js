@@ -19,20 +19,26 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        
+        {/* Homepage Route */}
+        <Route path="/" element={
+          <>
+            <Hero />
+            <Section0 />
+            <Section1 />
+            <Section2 />
+            <Section3 />
+            <Section4 />
+            <Section5 />
+          </>
+        }/>
+
+        {/* Other Pages */}
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/breeding-details" element={<Breeding />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Hero />
-      <Section0 />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Footer /> {/* Footer added at the bottom */}
+      <Footer />
     </Router>
   );
 };

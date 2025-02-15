@@ -1,0 +1,136 @@
+.contact-container1 {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    margin-top: 100px;
+    margin-bottom: 150px;
+  }
+  
+  .contact-image1 {
+    flex: 1;
+  }
+  
+  .contact-image1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .contact-form1 {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    margin-left: 50px;
+  }
+  
+  .contact-form1 h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    color: #654321;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    
+  }
+  
+  .input-group1 {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-group1 input {
+    width: 50%;
+  }
+  
+  .contact-form1 input{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .contact-form1 button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form1 button {
+    background-color: #654321;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .contact-form1 button:hover {
+    background-color: #654321;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .contact-container1 {
+      flex-direction: column; /* Stack elements vertically */
+      width: 90%;
+      margin-top: 100px;
+      margin-bottom: 150px;
+    }
+  
+    .contact-image1 {
+      width: 100%;
+      height: 250px; /* Set a fixed height for smaller screens */
+    }
+  
+    .contact-image1 img {
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .contact-form1 {
+      padding: 20px;
+      margin-left: 0;
+    }
+  
+    .contact-form1 h2 {
+      font-size: 24px;
+    }
+  
+    .input-group1 {
+      flex-direction: column; /* Stack inputs vertically */
+      gap: 5px;
+    }
+  
+    .input-group1 input {
+      width: 100%;
+    }
+  
+    .contact-form1 input {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .contact-form1 button {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  
