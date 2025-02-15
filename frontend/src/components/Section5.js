@@ -18,6 +18,7 @@ const Section5 = () => {
   }, []);
 
   return (
+    
     <div className="section5">
       
       <div className="carousel">
@@ -26,7 +27,10 @@ const Section5 = () => {
           <p className="testimonial-name">- {testimonials[currentTestimonial].name}</p>
         </div>
       </div>
-    </div>
+      
+      </div>
+   
+    
   );
 };
 

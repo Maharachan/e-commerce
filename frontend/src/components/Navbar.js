@@ -1,9 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../assets/logo.png";
 
 const Navbar = () => {
+  const navigate = useNavigate(); // Hook for navigation
+
   return (
     <nav className="navbar">
       <div className="logo-container">
@@ -15,7 +17,9 @@ const Navbar = () => {
         <li><Link to="/breeding-details">Breeding Details</Link></li>
         <li><Link to="/testimonials">Testimonials</Link></li>
       </ul>
-      <Link to="/contact" className="contact-btn">CONTACT US</Link>
+      <button className="contact-btn" onClick={() => navigate("/contact")}>
+        CONTACT US
+      </button>
     </nav>
   );
 };
